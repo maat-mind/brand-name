@@ -19,9 +19,17 @@
 
     color: white;
  }
- 
+
  ul {
     list-style-type: none;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ nav a:visited {
+    color: white;
  }
 
  nav {
@@ -37,16 +45,70 @@
  nav li {
     display: inline-block;
 
-    margin-left: 15px;
-
-
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     font-weight: 700;
+ }
+
+ .nav-main {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
  }
 
  nav .brand-name {
     margin-bottom: 20px;
 
-    font-size: 3.4rem;
+    font-size: 4.8rem;
     font-weight: 700;
+ }
+
+ .header-titles {
+    width: 60%;
+    height: 100%;
+
+    margin: 0 auto;
+    margin-top: 120px;
+
+    text-align: center;
+ }
+
+ .header-titles p {
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    color: #23A6F0;
+ }
+
+ .header-titles h1 {
+    margin-top: 30px;
+
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 6.4rem;
+ }
+
+ .header-titles h4 {
+    margin-top: 40px;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+ }
+
+ .header-titles button {
+    width: 130px;
+    height: 50px;
+
+    padding: 10px;
+    margin-top: 40px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    background-color: #23A6F0;
  }
