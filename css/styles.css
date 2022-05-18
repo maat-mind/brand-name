@@ -121,22 +121,22 @@ nav .brand-name {
    margin-top: 50px;
 }
 
-.practice-areas .practice-blue-title {
+.blue-title {
    font-size: 1.2rem;
    font-weight: 700;
 
    color: #23a6f0;
 }
 
-.practice-areas .practice-title {
+.subtitle {
    margin-top: 10px;
 
    font-size: 2.6rem;
    font-weight: 700;
 }
 
-.practice-areas .practice-paragraph {
-   min-width: 320px;
+.paragraph {
+   min-width: 380px;
    max-width: 50%;
    margin-top: 10px;
 
@@ -221,4 +221,138 @@ nav .brand-name {
 
    font-size: 1rem;
    color: #737373;
+}
+
+.meet-our-attorneys {
+   width: 80%;
+
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+.attorney-group-cards {
+   margin-top: 80px;
+   padding: 20px;
+}
+
+.meet-our-attorneys .attorney-card {
+   margin: 0 auto;
+   margin-bottom: 40px;
+
+   width: auto;
+   min-width: 230px;
+   max-width: 380px;
+   height: auto;
+
+}
+
+.card-main {
+   width: 80%;
+   margin-top: 8px;
+}
+
+.blue-subtitle-card {
+   font-size: 1.2rem;
+   font-weight: 700;
+
+   color: #23A6F0;
+}
+
+.subtitle-card {
+   margin-top: 6px;
+
+   font-size: 1.3rem;
+   font-weight: 700;
+}
+
+.paragraph-card {
+   width: 160px;
+   margin-top: 10px;
+
+   font-size: 1rem;
+   font-weight: 400;
+
+   color: #737373;
+}
+
+.stars-background {
+   display: inline-block;
+   position: relative;
+
+   top: 5px;
+   left: 30px;
+
+   width: 40px;
+   height: 20px;
+
+   background: url(../assets/images/stars-with-background.png) center/cover no-repeat;
+}
+
+.download-icon {
+   display: inline-block;
+   position: relative;
+
+   top: 3px;
+
+   margin-right: 10px;
+
+   width: 15px;
+   height: 15px;
+
+   background: url(../assets/icons/download.svg) center/cover no-repeat;
+}
+
+.card-main .sales-number {
+   margin: 15px 0;
+   font-size: 1.2rem;
+   font-weight: 700;
+
+   color: #737373;
+}
+
+.card-main .price-gray,
+.price-green {
+   font-size: 1.4rem;
+   font-weight: 700;
+
+   color: #737373;
+}
+
+.card-main .price-gray {
+   color: #737373;
+}
+
+.card-main .price-green {
+   margin-left: 10px;
+   color: #40BB15;
+}
+
+.card-main button {
+   width: 130px;
+   height: 40px;
+
+   margin: 15px 0 5px 30px;
+
+   border: 1px solid #23A6F0;
+   border-radius: 18px;
+
+   font-size: 1.2rem;
+   font-weight: 700;
+   font-family: "Montserrat", sans-serif;
+
+   color: #23a6f0;
+   background-color: white;
+}
+
+.right-blue-arrow {
+   display: inline-block;
+   position: relative;
+
+   top: 2px;
+   right: -7px;
+
+   width: 8px;
+   height: 12px;
+
+   background: url(../assets/icons/blue-arrow-right.svg) center/cover no-repeat;
 }

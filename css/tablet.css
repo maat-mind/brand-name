@@ -1,6 +1,14 @@
 .areas-cards {
     display: flex;
     flex-wrap: wrap;
- 
+
+    min-width: 320px;
+}
+
+.attorney-group-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
     min-width: 320px;
 }
