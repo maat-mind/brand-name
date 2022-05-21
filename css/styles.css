@@ -356,7 +356,7 @@ nav .brand-name {
 }
 
 .newsletter {
-   margin-top: 100px;
+   margin-top: 60px;
 
    text-align: center;
 }
@@ -376,7 +376,7 @@ nav .brand-name {
 #input-newsletter {
    width: 380px;
    height: 35px;
-   
+
    padding: 10px;
    margin-top: 40px;
 
@@ -403,4 +403,70 @@ nav .brand-name {
 
    color: white;
    background-color: #23a6f0;
+}
+
+#company-info {
+   display: flex;
+   justify-content: space-evenly;
+
+   width: 80%;
+   height: auto;
+
+   margin: 0 auto;
+   margin-top: 100px;
+}
+
+.footer-subtitle {
+   font-size: 1.4rem;
+
+   color: black !important;
+}
+
+#company-info li {
+   width: 200px;
+
+   font-size: 1.2rem;
+   line-height: 2.8rem;
+   font-weight: 700;
+
+   color: rgba(0, 0, 0, 0.5);
+}
+
+#footer-social-media {
+   display: flex;
+   justify-content: space-around;
+
+   width: 100%;
+
+   margin-top: 20px;
+   padding: 20px;
+
+   background-color: rgba(0, 0, 0, 0.02);
+}
+
+#footer-social-media p {
+   height: 100%;
+
+   font-size: 1.4rem;
+   font-weight: 700;
+
+
+   color: rgba(0, 0, 0, 0.6);
+}
+
+span .facebook,
+.instagram,
+.twitter {
+   display: inline-block;
+
+   width: 20px;
+   height: 20px;
+}
+
+.instagram {
+   background: url(../assets/icons/instagram-logo.svg) center/cover no-repeat;
+}
+
+.twitter {
+   background: url(../assets/icons/twitter-logo.svg) center/cover no-repeat;
 }
