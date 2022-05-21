@@ -8,7 +8,7 @@
 .attorney-group-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
     min-width: 320px;
 }

@@ -4,10 +4,7 @@
 
    margin: 0;
    padding: 0;
-}
 
-html {
-   font-size: 62.5%;
    font-family: "Montserrat", sans-serif;
 }
 
@@ -231,19 +228,20 @@ nav .brand-name {
 }
 
 .attorney-group-cards {
+   justify-content: center;
+
+   margin: 0 auto;
    margin-top: 80px;
    padding: 20px;
 }
 
-.meet-our-attorneys .attorney-card {
-   margin: 0 auto;
-   margin-bottom: 40px;
-
-   width: auto;
+.attorney-card {
+   width: 20%;
    min-width: 230px;
-   max-width: 380px;
    height: auto;
 
+   margin: 0 auto;
+   margin-bottom: 40px;
 }
 
 .card-main {
@@ -355,4 +353,54 @@ nav .brand-name {
    height: 12px;
 
    background: url(../assets/icons/blue-arrow-right.svg) center/cover no-repeat;
+}
+
+.newsletter {
+   margin-top: 100px;
+
+   text-align: center;
+}
+
+.paragraph-newsletter {
+   max-width: 25%;
+
+   margin: 0 auto;
+   margin-top: 10px;
+
+   font-size: 1.2rem;
+   font-weight: 400;
+
+   color: #737373;
+}
+
+#input-newsletter {
+   width: 380px;
+   height: 35px;
+   
+   padding: 10px;
+   margin-top: 40px;
+
+   font-size: 1.2rem;
+
+   border: 1px solid rgba(0, 0, 0, 0.07);
+   border-radius: 5px;
+   background-color: rgba(0, 0, 0, 0.02);
+}
+
+#button-newsletter {
+   position: relative;
+   left: -4px;
+
+   width: 80px;
+   height: 35px;
+
+   padding: 10px;
+
+   border: none;
+   border-radius: 0 5px 5px 0;
+
+   font-size: 1rem;
+
+   color: white;
+   background-color: #23a6f0;
 }
